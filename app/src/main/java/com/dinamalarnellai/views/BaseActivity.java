@@ -11,6 +11,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.dinamalarnellai.app.AppConfig;
+import com.dinamalarnellai.app.Commons;
 
 import java.util.Locale;
 
@@ -21,6 +22,7 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Commons.print("Gnanaprakasam");
         Configuration config = new Configuration();
         Locale locale = config.locale;
         locale = new Locale(AppConfig.LANGUAGE);
