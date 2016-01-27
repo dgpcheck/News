@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Dinamalar Nellai</string>
+    <string name="title_activity_news_list">NewsListActivity</string>
+    <!--<string name="app_name">Dinamalar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_save">Favorities</string>
+    <string name="action_filter">Filter</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="no_network_connection">Please check your Internet Connection..,</string>
+
+    <string name="cinema">Cinema</string>
+    <string name="temple">Temple</string>
+    <string name="sports">Sports</string>
+    <string name="business">Business</string>
+    <string name="title_activity_home_screen">தினமலர்</string>
+    <string-array name="text_ids">
+        <item>@string/cinema</item>
+        <item>@string/temple</item>
+        <item>@string/sports</item>
+        <item>@string/business</item>
+        <item>@string/cinema</item>
+        <item>@string/temple</item>
+        <item>@string/sports</item>
+        <item>@string/business</item>
+
+    </string-array>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="news">செய்திகள்</string>
+    <string name="horizontal">Horizontal Flip</string>
+    <string name="vertical">Vertical Flip</string>
+    <string name="type">Flip type</string>
+    <string name="header">Flipper Header</string>
+    <string name="footer">Flipper Footer</string>
+
+ -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="name">Name</string>
+</resources>

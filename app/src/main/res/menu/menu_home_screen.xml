@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:news="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.dinamalarnellai.com.news.HomeScreenActivity">
+    <item
+        android:id="@+id/action_next"
+        android:icon="@mipmap/ic_action_action_reorder"
+        android:orderInCategory="100"
+        android:title="@string/action_filter"
+        news:showAsAction="always" />
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+        <!-- The main content view -->
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!-- The navigation drawer -->
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#111"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp" />
+
+
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
+
+    <!--
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        &lt;!&ndash; Drawer Content &ndash;&gt;
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:local="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                local:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+            <FrameLayout
+                android:id="@+id/content_frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp" />
+
+            &lt;!&ndash; The navigation menu &ndash;&gt;
+
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"></ExpandableListView>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+    -->

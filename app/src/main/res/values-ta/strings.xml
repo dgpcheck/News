@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Dinamalar Nellai</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">அமைப்புகளை</string>
+    <string name="action_share">பகிர்</string>
+    <string name="action_save">Favorities</string>
+    <string name="action_filter">வடிகட்ட</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="no_network_connection">உங்கள் இணைய இணைப்பை சரிபார்க்கவும..,</string>
+    <string name="cinema">Cinema</string>
+    <string name="temple">Temple</string>
+    <string name="sports">Sports</string>
+    <string name="business">Business</string>
+    <string name="title_activity_home_screen">தினமலர்</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="news">செய்திகள்</string>
+    <string name="horizontal">Horizontal Flip</string>
+    <string name="vertical">Vertical Flip</string>
+    <string name="type">Flip type</string>
+    <string name="header">Flipper Header</string>
+    <string name="footer">Flipper Footer</string>
+    <string name="next">அடுத்</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">ஆம்</string>
+    <string name="no">இல்லை</string>
+    <string name="close">நெருக்கமான</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+     <string name="thank_for_waiting">காத்திருக்கும் நன்றி</string>
+    <string name="want_to_exit">Are you want to exit</string>
+    <string name="name">Name</string>
+    <string name="news_not_found">Latest news not found</string>
+    <string name="date">DateTime</string>
+</resources>

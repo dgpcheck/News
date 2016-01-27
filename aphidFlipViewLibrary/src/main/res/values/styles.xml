@@ -1,0 +1,5 @@
+<resources>
+
+    <style name="NewsTheme" parent="android:Theme.Light" />
+
+</resources>

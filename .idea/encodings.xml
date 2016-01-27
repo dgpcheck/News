@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/font" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dinamalarnellai/app/Commons.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dinamalarnellai/views/GcmBroadcastReceiver.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dinamalarnellai/views/GcmIntentService.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/dinamalarnellai/views/NavigationActivity.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/nonselecteditem_dot.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/phome.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/selecteditem_dot.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_navigation.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_font_minus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_font_plus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_navigation_chevron_left.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_navigation_chevron_right.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_font_minus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_font_plus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_navigation_chevron_left.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_navigation_chevron_right.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_font_minus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_font_plus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_navigation_chevron_left.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_navigation_chevron_right.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_font_minus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_font_plus.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_navigation_chevron_left.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_navigation_chevron_right.png" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

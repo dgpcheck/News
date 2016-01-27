@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="NewsTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+
+    <style name="TextViewStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="TextViewStyle_White" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+
+    </style>
+    <style name="NewsTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="NewsTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

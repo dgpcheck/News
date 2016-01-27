@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#cc0000</color>
+    <color name="colorPrimaryDark">#d30a0a</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="Color_1">#d30a0a</color>
+    <color name="Color_2">#cc0000</color>
+    <color name="Color_3">#db1313</color> <color name="color_toast_confirm">#53A93F</color>
+    <color name="color_toast_error">#d5131e</color>
+    <color name="color_toast_text">#453b42</color>
+    <color name="color_toast_alert">#d5131e</color>
+    <color name="primary">#fe2e2e</color>
+    <color name="activity_bg">#e4e5e5</color>
+
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+
+</resources>

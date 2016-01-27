@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.dinamalarnellai.com.news" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- GCM requires a Google account. -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="app.dinamalarnellai.com.news.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="app.dinamalarnellai.com.news.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+
+    <application
+        android:name="com.dinamalarnellai.app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NewsTheme" >
+        <activity android:name="com.dinamalarnellai.views.NavigationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dinamalarnellai.views.HomeScreenActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/NewsTheme" />
+        <activity
+            android:name="com.dinamalarnellai.views.NewsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/news"
+            android:theme="@style/NewsTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.dinamalarnellai.views.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="app.dinamalarnellai.com.news" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.dinamalarnellai.views.GcmIntentService" />
+
+        <activity
+            android:name="com.dinamalarnellai.views.NewsListActivity"
+            android:label="@string/title_activity_news_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/NewsTheme" >
+        </activity>
+    </application>
+
+</manifest>
